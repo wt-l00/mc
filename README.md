@@ -1,5 +1,5 @@
 # mc
-自作コンテナっぽいことをする
+Goならわかるシステムプログラミングを参考に自作コンテナっぽいことをする
 
 ## rootfsの作り方
 docker export $(docker create busybox) | tar -C rootfs -xvf -
